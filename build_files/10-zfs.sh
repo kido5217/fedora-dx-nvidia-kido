@@ -4,7 +4,7 @@ set -ouex pipefail
 
 ## Add ZFS repo
 
-dnf -y install  https://zfsonlinux.org/fedora/zfs-release-3-1$(rpm --eval "%{dist}").noarch.rpm
+dnf -y install  https://zfsonlinux.org/fedora/zfs-release-3-1.fc44.noarch.rpm
 
 ## Install kernel headers
 
